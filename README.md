@@ -40,6 +40,26 @@ Quer dominar as habilidades mais requisitadas em Data Science e IA?  O Chatbot C
 
 O chatbot utiliza um banco de dados com curadoria de links para cursos online gratuitos, tutoriais, artigos e livros, abrangendo os principais tópicos em Data Science, Machine Learning e Deep Learning. 
 
+## 🚀  Como Usar os Chatbots 🚀
+
+### 1. Configuração
+
+Antes de executar os chatbots, você precisa configurar a sua API Key do Gemini e adicionar os banco de dados no Colab.
+
+1. Acesse o Link do projeto no Colab.
+2.  substitua `SUA_API_KEY` pela sua chave de API. 
+
+### 2. Executando os Chatbots no Google Colab
+
+1. Faça o upload dos arquivos dos chatbots (`chatbotia.py` e `roteiro_chatbot.py`) e dos bancos de dados (`base_de_conhecimento.txt` e `base_roteiro.txt`) para o seu Google Colab.
+2. Execute os notebooks.
+3. O Gradio irá gerar um link público. Você pode acessar o chatbot através desse link ou continuar interagindo diretamente no Colab.
+
+**Exemplo:**
+
+```python
+iface.launch(debug=True)
+
 ## 🤝 Unindo Forças para Democratizar a IA
 
 ![Democratização da IA](https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif)
