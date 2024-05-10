@@ -1,11 +1,11 @@
 # 🤖  Desvendando o Universo da IA com Chatbots Interativos! 🤖 
-<https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif>
 
-Explore o fascinante mundo da Inteligência Artificial com a ajuda de dois chatbots inovadores: **Lor, o Chatbot Educador**, e o **Chatbot Criador de Roteiros de Estudos**. Ambos os projetos utilizam bancos de dados específicos e o poder do modelo de linguagem Gemini para oferecer uma experiência de aprendizado personalizada e envolvente.
+
+Explore o fascinante mundo da Inteligência Artificial com a ajuda de dois chatbots inovadores: **Lor, o Chatbot Educador**, e o **Chatbot Criador de Roteiros de Estudos**. Ambos os projetos utilizam bancos de dados específicos e o poder do modelo de linguagem Gemini, disponibilizado pela google, para oferecer uma experiência de aprendizado personalizada e envolvente.
 
 ## 👩‍🏫 Lor: Sua Mentora Virtual em IA 
 
-![Lor, o chatbot educador] (<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="360" src="https://giphy.com/embed/AtemeKRsPRVESJ8zRq/video" width="480"></iframe></div>)
+![Lor, o chatbot educador](https://private-user-images.githubusercontent.com/74038190/240885248-ff1b5f32-9420-4dde-b2b9-ed2c0aa17459.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTUzNzE4NDAsIm5iZiI6MTcxNTM3MTU0MCwicGF0aCI6Ii83NDAzODE5MC8yNDA4ODUyNDgtZmYxYjVmMzItOTQyMC00ZGRlLWIyYjktZWQyYzBhYTE3NDU5LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTEwVDIwMDU0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI4NGFmODU1ZDI1NWMwYWIxMTRiOWU2NGJmY2RhOWE4YjdiMDFhNDA4YjU3NTQzNWM3ZjBhZDc1NDA4N2Q2MDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zyVNnSRmDsCBvVPPZUuYyJ-bAHCsF-TtdbHAGFQuKpA)
 
 Tem dúvidas sobre IA? A Lor está aqui para ajudar! Com um vasto conhecimento em:
 
@@ -18,7 +18,7 @@ Lor utiliza um banco de dados rico em informações sobre IA, extraído de livro
 
 **Funcionalidades:**
 
-* Explica conceitos complexos de forma simples e compreensível. (Escolhas de diferentes respostas com níveis de complexidade diferentes: Iniciante, intermediário, Avançado'  )
+* Explica conceitos complexos de forma simples e compreensível. (Escolhas de diferentes respostas com níveis de complexidade diferentes: Iniciante, intermediário, Avançado')
 * Fornece exemplos relevantes e estudos de caso.
 * Discute as implicações éticas da IA.
 * Aprende novas informações a partir do banco de dados.
@@ -42,6 +42,6 @@ O chatbot utiliza um banco de dados com curadoria de links para cursos online gr
 
 ## 🤝 Unindo Forças para Democratizar a IA
 
-![Democratização da IA](https://media.giphy.com/media/Q7LP0zeXVk4yk/giphy.gif)
+![Democratização da IA](https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif)
 
-Acreditamos que a Inteligência Artificial tem o potencial de transformar o mundo para melhor.  Ao tornar o conhecimento em IA mais acessível, queremos empoderar as pessoas a explorar as infinitas possibilidades dessa tecnologia.
+EU acredito que a Inteligência Artificial tem o potencial de transformar o mundo para melhor.  Ao tornar o conhecimento em IA mais acessível, quero influenciar as pessoas a explorar as infinitas possibilidades dessa tecnologia.
