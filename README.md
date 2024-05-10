@@ -50,17 +50,16 @@ Antes de executar os chatbots, você precisa configurar a sua API Key do Gemini 
 2.  substitua `SUA_API_KEY` pela sua chave de API.
 3.  Baixe os arquivos "base_de_conhecimento" e "base_roteiro" do GitHub.
 4.  Faça o Upload deles para o Colab como mostra o vídeo abaixo.
+5.  ![20240510175001](https://github.com/julioquevdo/LorchatbotIA/assets/138057880/4bbbf262-dfa4-43a2-a435-c6e042760ed9)
+
 
 ### 2. Executando os Chatbots no Google Colab
 
-1. Faça o upload dos arquivos dos chatbots (`chatbotia.py` e `roteiro_chatbot.py`) e dos bancos de dados (`base_de_conhecimento.txt` e `base_roteiro.txt`) para o seu Google Colab.
-2. Execute os notebooks.
-3. O Gradio irá gerar um link público. Você pode acessar o chatbot através desse link ou continuar interagindo diretamente no Colab.
+1. Execute os notebooks.
+2. O Gradio irá gerar um link público. Você pode acessar o chatbot através desse link ou continuar interagindo diretamente no Colab.
 
-**Exemplo:**
+![image](https://github.com/julioquevdo/LorchatbotIA/assets/138057880/506c3fcd-365c-404b-bb12-139d3ff58de8)
 
-```python
-iface.launch(debug=True)
 
 ## 🤝 Unindo Forças para Democratizar a IA
 
