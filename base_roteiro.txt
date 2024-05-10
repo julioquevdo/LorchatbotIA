@@ -1,0 +1,1031 @@
+{Redes Neurais:
+Aprendizado Profundo (Deep Learning - DL): Uma área da Inteligência Artificial que utiliza redes neurais profundas para aprender representações complexas dos dados.
+Transição de Shallow para Deep:
+Redes Shallow: Aprendem diretamente uma única função para mapear dados.
+Redes Deep: Aprendem a função desejada através da composição de várias funções mais simples organizadas em camadas.
+Exemplo: Classificação de dígitos MNIST:
+Shallow: Uma única camada com 10 neurônios classifica imagens vetorizadas.
+Deep: Camadas ocultas adicionais (fully connected) geram representações intermediárias e facilitam o treinamento.
+Redes Convolucionais (CNNs): Especializadas em processamento de informações visuais (imagens e vídeos).
+Camada convolucional: Usa filtros para analisar regiões locais da imagem, gerando mapas de características.
+Pooling: Reduz a dimensionalidade espacial dos feature maps.
+Camadas FC: Realizam a classificação final.
+Treinamento de CNNs:
+Função de custo: Mede a diferença entre as predições e as classes reais.
+Otimização: Ajusta os parâmetros da rede para minimizar a função de custo.
+Regularização: Evita overfitting.
+Data augmentation: Aumenta o conjunto de dados de treinamento.
+Pre-processamento: Normaliza os dados de entrada.
+Modelos pré-treinados: Utilizam redes já treinadas para realizar fine-tuning ou extração de características.
+Por que Deep Learning funciona?
+Profundidade: Redes profundas aprendem funções mais complexas.
+Contração e separação: As camadas convolucionais preservam características importantes para a separação de classes.
+Interpretações teóricas: Teoremas de aproximação, complexidade de circuitos e geometria diferencial explicam o sucesso do DL.
+Limitações do Deep Learning:
+Necessidade de dados: Requer grandes quantidades de dados rotulados.
+Fragilidade a ataques adversários: Pequenas perturbações nas imagens podem enganar as redes.
+Falta de abstração e adaptação: Não generalizam tão bem quanto humanos a partir de poucos exemplos.
+Considerações finais: Deep Learning oferece ferramentas poderosas para aprendizado de máquina, mas é crucial compreender seu funcionamento e limitações para uso eficiente e desenvolvimento de novas técnicas.
+Machine Learning (ML): Área da Inteligência Artificial que usa algoritmos para extrair informações e criar modelos preditivos.
+Redes neurais artificiais: Modelo de aprendizado de máquina inspirado no cérebro humano, com conexões entre neurônios matemáticos.
+Aprendizagem profunda (Deep Learning): Subárea do ML que usa redes neurais profundas com múltiplas camadas ocultas.
+Neurônio biológico: Unidade básica do cérebro humano, transmitindo informações através de impulsos elétricos.
+Neurônio matemático: Modelo simplificado do neurônio biológico, calculando a soma ponderada de entradas e aplicando uma função de ativação.
+Função de ativação: Transformação não-linear aplicada ao sinal de entrada, determinando a ativação do neurônio.
+Arquiteturas de redes neurais:
+Redes Feed-Forward: Informações fluem em uma direção, sem loops.
+Redes Recorrentes: Incluem loops de feedback, permitindo que informações persistam.
+Redes Conectadas Simetricamente: Conexões entre unidades são simétricas.
+10 arquiteturas principais de redes neurais: Multilayer Perceptrons, Redes Neurais Convolucionais, Redes Neurais Recorrentes, LSTMs, Redes de Hopfield, Máquinas de Boltzmann, Deep Belief Networks, Deep Auto-Encoders, GANs, Deep Neural Network Capsules.
+Perceptron: Modelo matemático de um neurônio, recebendo várias entradas e produzindo uma única saída binária.
+Funções de ativação populares: Função de Etapa Binária, Função Linear, Sigmóide, Tanh, ReLU, Leaky ReLU, Softmax.}
+{Árvores de Decisão:
+Algoritmo de aprendizagem supervisionada: Para classificação e regressão, dividindo a população em subpopulações homogêneas.
+Vantagens: Fácil de entender, útil em exploração de dados, menos necessidade de limpeza de dados, pode manipular variáveis numéricas e categóricas, não paramétrico.
+Desvantagens: Suscetível a overfitting, perde informação ao categorizar variáveis contínuas.
+Parâmetros e Overfitting:
+Número mínimo de amostras para uma divisão de nós
+Número mínimo de amostras para um nó de término
+Profundidade máxima da árvore
+Número máximo de atributos a considerar para uma divisão
+Poda
+Métodos Ensemble: Combinam vários modelos para melhorar a precisão e a estabilidade.
+Bagging: Reduz a variância das previsões (ex: Random Forest).
+Boosting: Combina modelos fracos para criar um modelo forte (ex: Gradient Boosting, XGBoost).
+{Machine Learning - Geral}:
+Aprendizagem supervisionada: A máquina aprende a partir de dados rotulados.
+Aprendizagem não supervisionada: A máquina aprende a partir de dados não rotulados.
+Aprendizagem por Reforço: Um agente interage com um ambiente e aprende ações ótimas.
+Métricas de avaliação: Acurácia, Precisão, Revocação (Recall), F1 Score, Especificidade, AUC-ROC.
+Bibliotecas Python para Machine Learning: NumPy, Pandas, Scikit-learn, Matplotlib, TensorFlow, PyTorch, XGBoost.
+Algoritmos Abordados: Regressão Linear, Regressão Logística, Árvore de Decisão, SVM, KNN, K-Means, PCA, Floresta Aleatória, Modelagem de Séries Temporais.}
+{Aprendizagem de Máquina aplicada a problemas reais:
+Diagnóstico médico: Um exemplo de como o ML pode ser aplicado para prever diagnósticos com base em dados de pacientes.
+Detecção de spam, sistemas de recomendação, etc.: Exemplos de aplicações do ML no mundo real.}
+{Outras técnicas e conceitos importantes:
+Backpropagation: Algoritmo para calcular gradientes em redes neurais.
+Descida do gradiente: Algoritmo de otimização para minimizar funções de custo.
+Overfitting e regularização: Técnicas para evitar que o modelo se ajuste demais aos dados de treinamento e não generalize bem para novos exemplos.
+Inicialização de pesos: Escolher valores iniciais adequados para os pesos da rede pode acelerar o aprendizado.
+Hiperparâmetros: Parâmetros que controlam o comportamento do modelo, como taxa de aprendizado e parâmetro de regularização.
+Early Stopping: Técnica para evitar overfitting, parando o treinamento quando a precisão no conjunto de validação para de melhorar.
+Tamanho do mini-batch: Influencia a velocidade e a precisão do aprendizado.
+Variações do Stochastic Gradient Descent: Hessian Optimization, Momentum.
+Teorema da universalidade: Redes neurais podem aproximar qualquer função contínua.
+Problema da dissipação do gradiente: O gradiente pode diminuir exponencialmente em redes profundas, dificultando o treinamento.
+Explosão do gradiente: O gradiente pode aumentar exponencialmente em redes profundas, levando à instabilidade.
+Instabilidade do gradiente: Problema fundamental para o aprendizado baseado em gradiente em redes profundas.}
+{Aplicações mais avançadas:
+Liquid Neural Networks: Redes neurais que aprendem continuamente, adaptando-se a novas entradas de dados.
+CLIP (Contrastive Language-Image Pre-training): Rede neural que utiliza a linguagem natural para realizar a classificação de imagens.
+Transformadores: Arquitetura de Deep Learning que lida com dependências de longo alcance em tarefas de sequência para sequência.
+Auto-Atenção: Mecanismo de atenção que relaciona diferentes posições de uma única sequência para computar uma representação.
+BERT (Bidirectional Encoder Representations from Transformers): Modelo pré-treinado para PLN que utiliza o Transformer para treinamento bidirecional.
+GPT-3 (Generative Pre-trained Transformer 3): Modelo de linguagem poderoso que pode realizar várias tarefas de PLN sem treinamento supervisionado.
+Autoencoders: Redes neurais que aprendem a copiar suas entradas para suas saídas, descobrindo estruturas nos dados.
+VAEs (Variational Autoencoders): Autoencoders que codificam entradas como distribuições e regularizam o espaço latente para fins generativos.
+Aprendizagem por Reforço (Reinforcement Learning): Treinamento de modelos para tomar uma sequência de decisões em um ambiente, maximizando recompensas.
+Processos de Decisão de Markov (MDPs): Modelo matemático para descrever a interação entre um agente e seu ambiente em RL.
+Q-Learning: Algoritmo de RL baseado em valor que aprende a política ideal maximizando a recompensa total.
+Deep Q-Network (DQN): Combina Q-Learning com Deep Learning para lidar com problemas de alta dimensão.
+DDPG (Deep Deterministic Policy Gradient): Abordagem de RL para lidar com espaços de ação contínuos.}
+{Regras e Princípios de Machine Learning:
+Definição do problema de negócio: Tudo começa com a definição clara do problema a ser resolvido.
+Escolha do aprendizado de máquina: Prefira o aprendizado de máquina a heurísticas complexas.
+Métricas: Projete e implemente métricas desde o início.
+Simplicidade do primeiro modelo: Mantenha o primeiro modelo simples e obtenha a infraestrutura certa.
+Testes: Teste a infraestrutura independentemente do aprendizado de máquina.
+Dados descartados: Tenha cuidado com dados descartados ao executar pipelines.
+Transformação de heurísticas: Transforme heurísticas em recursos ou trate-os externamente.
+Atualização do modelo: Defina o nível de atualização do modelo.
+Detecção de problemas: Detecte problemas antes de exportar modelos.
+Falhas silenciosas: Fique atento a falhas silenciosas.
+Proprietários e documentação: Forneça os proprietários e a documentação das colunas de recursos.
+Processo iterativo: O processo de desenvolvimento e melhoria do modelo é iterativo.
+Recursos observados diretamente: Comece com recursos observados diretamente em oposição aos recursos aprendidos.
+Combinação de recursos: Utilize técnicas como discretização e cruzamento para combinar recursos.
+Recursos específicos: Use recursos muito específicos quando possível.
+Pesos dos recursos: O número de pesos de recursos que você pode aprender é proporcional à quantidade de dados.
+Limpeza de recursos: Limpe os recursos que você não está mais usando.
+Métricas técnicas x métricas de negócio: É importante monitorar ambos os tipos de métricas.
+Objetivo a ser otimizado: Defina qual objetivo você deseja otimizar.
+Métrica simples para o primeiro objetivo: Escolha uma métrica simples, observável e atribuível para seu primeiro objetivo.
+Modelo interpretável: Começar com um modelo interpretável facilita a depuração.
+Testes finais: Os testes finais devem ser feitos por usuários finais.
+Feedback contínuo: Obtenha feedback contínuo dos usuários finais.
+Cálculo do delta: Calcule o delta entre os modelos para medir a melhoria da performance.
+Solução do problema: Ao atualizar modelos, a solução do problema é mais importante do que o poder preditivo.
+Padrões nos erros: Procure padrões nos erros do modelo em produção e crie novos recursos.
+Quantificação do comportamento indesejado: Tente quantificar o comportamento indesejado observado.
+Comportamento de curto x longo prazo: Esteja ciente de que comportamento idêntico de curto prazo não implica comportamento idêntico de longo prazo.
+Reutilização de código: Reutilize o código entre o pipeline de treinamento e o pipeline de deploy sempre que possível.
+Teste em novos dados: Teste o modelo em dados coletados após os dados de treinamento.
+Recursos posicionais: Evite loops de feedback com características posicionais.
+Distorção entre treinamento/produção: Meça a distorção entre treinamento/produção.
+Deploy com containers: Prepara-se para o deploy através de containers.
+Monitoramento do modelo em produção: Monitore o modelo para garantir que ele esteja funcionando corretamente.
+Protocolos robustos: Planejar e projetar protocolos robustos de monitoramento, auditoria e reciclagem.
+Dados são essenciais: Machine Learning não funciona sem dados.
+Dados raramente estão prontos para uso: A limpeza e o pré-processamento de dados são cruciais.
+Não há arquitetura ideal: Cada arquitetura tem pontos fortes e fracos.
+Machine Learning não é aplicação pronta: É preciso decidir como usar o modelo para resolver um problema.
+Transfer Learning: Utilize modelos pré-treinados sempre que possível.
+Regularização para generalização: Utilize técnicas de regularização para garantir que o modelo generaliza bem para novos dados.
+Volume de dados ideal: O volume de dados ideal para treinar modelos depende de diversos fatores.
+Número de amostras ideal: O desempenho normalmente escala com o logaritmo do número de amostras.
+Número de parâmetros ideal: O número de parâmetros do modelo deve ser menor que o número de amostras.
+Aprendizado contínuo: O aprendizado de máquina é um processo contínuo e sempre há mais a aprender.}
+
+Free Certification Courses to Learn Machine Learning in 2024:
+
+1. Python
+🔗 https://imp.i384100.net/5gmXXo
+
+2. SQL
+🔗 https://edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql
+
+3. Statistics and R
+🔗 https://edx.org/learn/r-programming/harvard-university-statistics-and-r
+
+4. Data Science: R Basics
+🔗https://edx.org/learn/r-programming/harvard-university-data-science-r-basics
+
+5. Excel and PowerBI
+🔗 https://learn.microsoft.com/en-gb/training/paths/modern-analytics/
+
+6. Data Science: Visualization
+🔗https://edx.org/learn/data-visualization/harvard-university-data-science-visualization
+
+7. Data Science: Machine Learning
+🔗https://edx.org/learn/machine-learning/harvard-university-data-science-machine-learning
+
+8. R
+🔗https://imp.i384100.net/rQqomy
+
+9. Tableau
+🔗https://imp.i384100.net/MmW9b3
+
+10. PowerBI
+🔗 https://lnkd.in/dpmnthEA
+
+11. Data Science: Productivity Tools
+🔗 https://lnkd.in/dGhPYg6N
+
+12. Data Science: Probability
+🔗https://mygreatlearning.com/academy/learn-for-free/courses/probability-for-data-science
+
+13. Mathematics
+🔗http://matlabacademy.mathworks.com
+
+14. Statistics
+🔗 https://lnkd.in/df6qksMB
+
+15. Data Visualization
+🔗https://imp.i384100.net/k0X6vx
+
+16. Machine Learning
+🔗 https://imp.i384100.net/nLbkN9
+
+17. Deep Learning
+🔗 https://imp.i384100.net/R5aPOR
+
+18. Data Science: Linear Regression
+ 🔗https://pll.harvard.edu/course/data-science-linear-regression/2023-10
+
+19. Data Science: Wrangling
+🔗https://edx.org/learn/data-science/harvard-university-data-science-wrangling
+
+20. Linear Algebra
+🔗 https://pll.harvard.edu/course/data-analysis-life-sciences-2-introduction-linear-models-and-matrix-algebra
+
+21. Probability
+🔗 https://pll.harvard.edu/course/data-science-probability
+
+22. Introduction to Linear Models and Matrix Algebra
+🔗https://edx.org/learn/linear-algebra/harvard-university-introduction-to-linear-models-and-matrix-algebra
+
+23. Data Science: Capstone
+🔗 https://edx.org/learn/data-science/harvard-university-data-science-capstone
+
+ 24. Data Analysis
+🔗 https://pll.harvard.edu/course/data-analysis-life-sciences-4-high-dimensional-data-analysis
+
+25. IBM Data Science Professional Certificate
+https://imp.i384100.net/9gxbbY
+
+26. Neural Networks and Deep Learning
+https://imp.i384100.net/DKrLn2
+
+27. Supervised Machine Learning: Regression and Classification
+https://imp.i384100.net/g1KJEA
+
+𝐋𝐞𝐚𝐫𝐧 𝐃𝐚𝐭𝐚 𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐰𝐢𝐭𝐡 𝐅𝐑𝐄𝐄 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐜𝐨𝐮𝐫𝐬𝐞𝐬 𝐢𝐧 𝟐𝟎𝟐𝟒:
+
+1. Python
+🔗http://freecodecamp.org/learn/scientific-computing-with-python/
+
+2. SQL
+🔗http://openclassrooms.com/courses/2071486-retrieve-data-using-sql
+
+3. R
+🔗http://mygreatlearning.com/academy/learn-for-free/courses/r-for-data-science
+
+4. Excel
+🔗http://simplilearn.com/learn-business-analytics-excel-fundamentals-skillup
+
+5. PowerBI
+🔗http://openclassrooms.com/courses/7434291-create-dashboards-with-powerbi
+
+6. Tableau
+🔗http://openclassrooms.com/courses/5873606-create-dashboards-with-tableau
+
+7. Mathematics & Statistics
+🔗http://matlabacademy.mathworks.com
+
+8. Probability
+🔗http://mygreatlearning.com/academy/learn-for-free/courses/probability-for-data-science
+
+9. Data Analysis
+🔗http://cognitiveclass.ai/courses/data-analysis-python
+
+10. Data Visualization
+🔗http://cognitiveclass.ai/courses/data-visualization-python
+
+📌Here are the best FREE Data Science books. 👇🏽
+
+🔷 Dive into Deep Learning: https://d2l.ai
+
+🔷 Deep Learning: http://deeplearningbook.org
+
+🔷 Interpretable Machine Learning: https://lnkd.in/grevvJhu
+
+🔷 Machine Learning Yearning: https://lnkd.in/gviDYyf9
+
+🔷 Mathematics for Machine Learning: http://mml-book.github.io
+
+🔷 An Introduction to Statistical Learning: http://statlearning.com
+
+Roteiro para se Tornar um Cientista de Dados
+Programação:
+Python {1}
+R
+Java
+SQL
+Fundamentos Matemáticos:
+Estatística
+Álgebra Linear
+Cálculo Diferencial
+Matemática Discreta
+Análise de Dados:
+Engenharia de Atributos (Feature Engineering)
+Limpeza e Transformação de Dados (Data Wrangling)
+Análise Exploratória de Dados (EDA)
+Web Scraping:
+Beautiful Soup
+Scrapy
+URLLIB
+http://
+Aprendizado de Máquina (Machine Learning):
+Classificação
+Regressão
+Aprendizado por Reforço (Reinforcement Learning)
+Aprendizagem Profunda (Deep Learning)
+Redução de Dimensionalidade
+Agrupamento (Clustering)
+Visualização:
+Tableau
+Power BI
+D3.js
+ggplot2
+Gráfico de Dispersão (Scatter Plot)
+
+𝟭. 𝗗𝗮𝘁𝗮 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀
+https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/
+
+𝟮. 𝗦𝗾𝗹 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀
+https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/
+
+𝟯. 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜
+https://learn.microsoft.com/en-us/training/paths/create-use-analvtics-reports-power-bi/
+
+𝟰. 𝗔𝘇𝘂𝗿𝗲 𝗰𝗼𝘀𝗺𝗼𝘀 𝗗𝗕
+https://learn.microsoft.com/en-us/training/paths/create-use-analytics-reports-power-bi/
+
+𝟱. 𝗔𝗜 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀
+https://learn.microsoft.com/en-us/training/paths/create-no-code-predictive-models-azure-machine-learning/
+
+𝟲. 𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝘁𝗼 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴
+https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning/
+
+𝟳. 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹 𝗔𝗜 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀
+https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/
+
+𝟴. 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀 𝗼𝗳 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗔𝗜
+https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/
+
+𝟵. 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀 𝗼𝗳 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻
+https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/
+
+𝟭𝟬. 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀 𝗼𝗳 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗹𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗔𝗜
+https://learn.microsoft.com/en-us/training/modules/responsible-generative-ai/
+
+1. Learn JavaScript
+https://codecademy.com/learn/introduction-to-javascript
+
+2. JavaScript for Beginners
+https://simplilearn.com/learn-javascript-basics-free-course-skillup
+
+3. Javascript Essentials
+https://udemy.com/course/javascript-essentials/
+
+4. JavaScript Fundamentals
+https://udemy.com/course/javascriptfundamentals/
+
+5. Learn to Program in Javascript: Beginner to Pro
+https://udemy.com/course/programming-in-javascript/
+
+6. Code Your First Game: Arcade Classic in JavaScript on Canvas
+https://udemy.com/course/code-your-first-game/
+
+7. Learn JavaScript - Full Course for Beginners
+https://youtube.com/watch?v=PkZNo7MFNFg&ab_channel=freeCodeCamp.org
+
+8. Learn Intermediate JavaScript
+https://codecademy.com/learn/learn-intermediate-javascript
+
+9. Programming with JavaScript
+https://imp.i384100.net/DK10Wb
+
+10. Meta Front-End Developer Professional Certificate
+https://imp.i384100.net/k0bgjx
+
+11. HTML, CSS, and Javascript for Web Developers
+https://imp.i384100.net/MmjnAM
+
+𝟭. 𝗖𝗦𝟱𝟬𝗣 𝗳𝗿𝗼𝗺 𝗛𝗮𝗿𝘃𝗮𝗿𝗱 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆
+https://youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V
+
+𝟮. 𝗣𝘆𝘁𝗵𝗼𝗻 𝗳𝗼𝗿 𝗗𝗮𝘁𝗮 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗯𝘆 𝗜𝗕𝗠
+https://cognitiveclass.ai/courses/python-for-data-science
+
+𝟯. 𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝘁𝗼 𝗣𝘆𝘁𝗵𝗼𝗻 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗯𝘆 𝗨𝗱𝗮𝗰𝗶𝘁𝘆 𝗳𝗼𝗿 𝗙𝗥𝗘𝗘
+https://imp.i115008.net/MmW5nY
+
+𝟰. 𝗟𝗲𝗮𝗿𝗻 𝗣𝘆𝘁𝗵𝗼𝗻 𝗯𝗮𝘀𝗶𝗰𝘀 
+https://learnpython.org
+
+𝟱. 𝗟𝗲𝗮𝗿𝗻 𝗣𝘆𝘁𝗵𝗼𝗻 - 𝗙𝘂𝗹𝗹 𝗖𝗼𝘂𝗿𝘀𝗲 𝗳𝗼𝗿 𝗕𝗲𝗴𝗶𝗻𝗻𝗲𝗿𝘀 𝗯𝘆 𝗙𝗿𝗲𝗲𝗖𝗼𝗱𝗲𝗖𝗮𝗺𝗽
+https://youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB
+
+6. Machine Learning with Python
+https://imp.i384100.net/eKJOOZ
+
+7. Python for Beginners (2023)
+https://udemy.com/course/python-for-complete-beginners-1/
+
+8. Learn Python for Total Beginners
+https://udemy.com/course/python-3-for-total-beginners/v
+
+9. Python for Data Science, AI & Development
+https://imp.i384100.net/5gmXXo
+
+10. Python for Everybody Specialization
+https://imp.i384100.net/oqWMgY
+
+11. Crash Course on Python
+https://imp.i384100.net/QyzVe6
+
+12. Google IT Automation with Python Professional Certificate
+https://imp.i384100.net/Gmorq2
+
+13. Python 3 Programming Specialization
+https://imp.i384100.net/m53qey
+
+14. Get Started with Python by Google
+https://imp.i384100.net/q4391q
+
+15. Programming in Python by Meta
+https://imp.i384100.net/DKgG5G
+
+16. Data Analysis with Python by IBM
+https://imp.i384100.net/jrDMMb
+
+Become a Python Backend Developer in 4 Months! 💼🔥
+
+🚀 𝗬𝗼𝘂𝗿 𝟰-𝗠𝗼𝗻𝘁𝗵𝘀 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗣𝗹𝗮𝗻 🚀
+
+1️⃣ 𝗠𝗼𝗻𝘁𝗵 𝟭: 𝗚𝗲𝘁 𝘆𝗼𝘂𝗿 𝗯𝗮𝘀𝗶𝗰𝘀 𝗿𝗶𝗴𝗵𝘁
+
+1. Learn Python:https://simplilearn.com/learn-python-basics-free-course-skillup
+2. Python Projects: https://hackr.io/blog/python-projects
+3. DSA with Python: https://imp.i115008.net/0Z7obY
+ 
+2️⃣ 𝗠𝗼𝗻𝘁𝗵 𝟮: 𝗗𝗶𝘃𝗲 𝗶𝗻𝘁𝗼 𝗙𝗹𝗮𝘀𝗸 𝗮𝗻𝗱 𝗔𝗣𝗜
+
+Learn Flask: https://codecademy.com/learn/learn-flask
+Flask Projects: https://machinelearningprojects.net/flask-projects/
+Learn REST API with Flask: https://realpython.com/flask-connexion-rest-api/
+
+3️⃣ 𝗠𝗼𝗻𝘁𝗵 𝟯: 𝗠𝗮𝘀𝘁𝗲𝗿 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗰𝗼𝗻𝗰𝗲𝗽𝘁𝘀 𝗮𝗻𝗱 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀
+
+1. Learn Multithreading, Multiprocessing, Asyncio: https://lnkd.in/e_99Jiwp
+2. Gunicorn & Nginx with Flask: https://lnkd.in/eWxgTNdB
+3. TDD with Python & Flask: https://lnkd.in/eMjweHuZ
+4. Basic RDBMS: https://lnkd.in/ebkPd8-q
+5. Learn SQL: https://sqlbolt.com & http://W3Schools.com
+6. PostgreSQL with Python: https://lnkd.in/esKUqNdt
+7. Flask App with PostgreSQL: https://lnkd.in/eTzpcwNc
+ 
+4️⃣ 𝗠𝗼𝗻𝘁𝗵 𝟰: 𝗣𝗼𝗹𝗶𝘀𝗵 𝘆𝗼𝘂𝗿 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗽𝗿𝗲𝗽𝗮𝗿𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗷𝗼𝗯 𝗺𝗮𝗿𝗸𝗲𝘁
+
+1. Basics of Bash: https://lnkd.in/eZnG8cP6
+2. Basics of Docker: https://lnkd.in/eFEK_aXW
+3. Deploy Flask App with Docker: https://lnkd.in/eTjnFW8Y
+4. GIT & GitHub: https://lnkd.in/ejshTxFw
+5. Python Portfolio on Github: https://lnkd.in/eB2AanXj
+6. Python Resume Ideas: https://lnkd.in/e_Fb7uNi
+
+Roteiro Python
+Gerenciadores de Pacotes:
+pip
+conda
+Estruturas de Dados:
+Arrays & Listas Ligadas
+Heaps, Pilhas, Filas
+Tabelas Hash
+Pesquisa Binária
+Árvores
+Recursão
+Algoritmos de Classificação
+Manipulação de Arquivos
+Interface Gráfica de Usuário (GUI)
+Redes
+Fundamentos de Ciência da Computação (DSA)
+Automação
+Python Avançado:
+Web Scraping e Automações
+Teste Unitário
+Teste de Integração
+Frameworks Web:
+Django
+Flask
+FastAPI
+Teste ponta-a-ponta
+Teste de Carga
+Ciência de Dados:
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Scikit-learn
+Programação Orientada a Objetos (OOP):
+Classes
+Herança
+Métodos
+Sintaxe Básica:
+Sintaxe Básica
+Variáveis
+Tipos de Dados
+Condicionais
+Loops
+Exceções
+Funções
+Listas, Tuplas, Conjuntos, Dicionários
+Compreensão de Listas
+Geradores
+Expressões
+Closures
+Regex
+Decoradores
+Iteradores
+Lambdas
+Programação Funcional:
+map, reduce, filters
+Threading
+Métodos Mágicos
+Deep Learning:
+TensorFlow
+Pytorch
+
+Sumário
+O Curso de Ciência da Computação oferecido pela Universidade Livre Brasileira é uma educação completa em Ciência da Computação usando materiais on-line e em Português do Brasil. Este Curso não é pensado para treinamento em tecnologias específicas ou focado em habilidades profissionais direcionadas ao mercado, e sim para aqueles que desejam uma educação própria, com qualidade, fundada nos conceitos fundamentais da computação e é planejada para alunos com disciplina, comprometimento e (o mais importante) bons hábitos de estudo majoritariamente independentes, mas que buscam o suporte de uma comunidade de outros estudantes no Brasil todo.
+
+Este curso contém conteúdos que seriam vistos em um curso de Ciência da Computação organizados de forma estruturada. Os cursos em si são selecionados primariamente do conteúdo aberto de diversas Universidades e Institutos de Educação do Brasil. Entretanto, os cursos presentes na grade seguem os seguintes critérios:
+
+Bases para a criação do Currículo (Guidelines):
+
+Levamos em consideração - apesar de não termos implementado completamente conforme sugerido - os seguintes documentos sobre a formação de um currículo em Ciência da Computação. Continuaremos constantemente trabalhando e aceitando sugestões de melhorias para cada vez mais oferecer uma experiência melhor para todos os estudantes que seguem nosso guia aberto de conteúdos. Além das referências abaixo, também utilizamos como referência as grades curriculares de outras instituições de ensino superior brasileiras.
+
+Referenciais de Formação para os Cursos de Graduação em Computação 2017 (SBC)
+Diretrizes Curriculares de Cursos da Área de Computação e Informática (UFRGS)
+Os Cursos devem:
+
+Ser gratuitos ou de conteúdo que possa ser assistido de forma aberta
+Possuir método pedagógico
+Ter reconhecimento de qualidade da Comunidade sobre o tema
+Estar de acordo com o que se espera do Currículo de Ciências da Computação
+Todas as disciplinas possuem uma lista de leituras recomendadas. É de sua responsabilidade escolher a metodologia mais adequada. Note que os livros, em sua maioria, não são gratuitos.
+
+Cursos de qualidade recomendados que não se encaixam na grade serão adicionados em cursos extras. O mesmo ocorrerá quanto aos livros em livros extras.
+
+Todos os cursos podem ser completados de forma gratuita. Porém, alguns cursos têm diplomas, certificados, atividades, ou extras opcionais que são pagos. Observe que o Coursera oferece ajuda financeira.
+
+Os estudantes podem fazer as disciplinas individualmente ou em grupo, seguindo a ordem que estabelecemos ou não, sempre respeitando os pré-requisitos curriculares.
+
+Apenas publique em seu GitHub e espaços públicos os materiais que seu Curso permite que sejam publicados. Nunca desrespeite nenhuma regra do curso em que se matriculou e nunca faça plágios!
+
+Como contribuir
+
+Conseguindo ajuda (Detalhes sobre o FAQ e servidor)
+
+Comunidade
+Temos um servidor no Discord! Discord Nele, você poderá encontrar e interagir com outros estudantes. Por que não se apresenta lá agora mesmo? Vem para o Discord.
+Você também pode interagir sobre questões a respeito dos problemas do Curso, propor mudanças de Currículo e outras coisas relacionadas por meio das nossas issues. Sinta-se à vontade para abrir discussões lá.
+Adicione a Universidade Brasileira Livre no seu perfil do LinkedIn!
+Antes de começar
+Há tópicos que, apesar de não serem essenciais na formação de Ciência da Computação, podem ser muito úteis na sua jornada de aprendizado. Se desejar, você pode optar por ignorá-los momentaneamente e revisá-los posteriormente.
+
+Técnicas de estudo, organização e aprendizagem
+Antes de começar a estudar é importante que você aprenda algumas coisas importantes. Ser autodidata não é sobre aprender sozinho, nem sobre não estar vinculado à uma Instituição de Ensino Superior (IES), mas sobre ser responsável pelo seu próprio ensino e isso é algo que exige saber como estudar, o quanto estudar, e como organizar seus estudos. Para isso, recomendamos os seguintes conteúdos abaixo.
+
+Curso	Conteúdos
+Aprendendo a aprender ¹	Memória; Técnicas de estudo; Recursos de estudo.
+Como estudar do jeito certo	Tempo; Técnica; Discussão.
+¹ Disponível com legendas em Português.
+
+Git e GitHub
+Conhecer ferramentas como o Git o ajudará a organizar seus projetos de estudo. O GitHub - ou outras plataformas como BitBucket ou GitLab - pode ser muito útil para trabalhar remotamente e compartilhar os seus projetos com colegas, além de poder usá-lo como portfólio em futuras oportunidades de trabalho.
+
+Curso	Conteúdos
+Git e Github para Iniciantes	Git; GitHub; Controle de versão.
+Git e GitHub	Git; GitHub; Controle de versão.
+Currículo
+Você pode fazer os cursos na ordem, onde, e como preferir. Este é o maior benefício da liberdade. Entretanto, por fins didáticos e de organização, recomendamos que tente respeitar os pré-requisitos. Você perceberá que não cumprir com estes poderá criar obstáculos em sua jornada.
+
+Dependências entre assuntos
+
+
+(Clique na imagem para ampliar.)
+
+Obrigatórias
+A grade curricular abaixo está dividida em etapas para melhor visualização
+
+1ª Etapa
+Etapa	Aulas em Vídeo	Pré-requisitos	Leitura Recomendada
+1	Circuitos Digitais	-	Livros sobre Circuitos Digitais
+1	Matemática Discreta	-	Livros sobre Matemática Discreta
+1	Linguagens de Programação	-	Livros sobre Linguagens de Programação
+1	Introdução à Ciência da Computação com Python I	-	Livros sobre Introdução a CC
+1	Geometria Analítica	-	Livros sobre Geometria Analítica
+2ª Etapa
+Etapa	Aulas em Vídeo	Pré-requisitos	Leitura Recomendada
+2	Cálculo I	Geometria Analítica	Livros de Cálculo I
+2	Álgebra Linear I	Geometria Analítica	Livros de Álgebra Linear
+2	Estruturas de Dados	Matemática Discreta
+
+Introdução à Ciência da Computação com Python I	Livros de Estruturas de Dados
+2	Introdução à Ciência da Computação com Python II	Introdução à Ciência da Computação com Python I	Livros de Introdução a Programação
+2	Laboratório de Programação Orientada a Objetos I	Introdução à Ciência da Computação com Python I	Livros sobre Orientação a Objetos
+3ª Etapa
+Etapa	Aulas em Vídeo	Pré-requisitos	Leitura Recomendada
+3	Algoritmos em Grafos	Estruturas de Dados	Livros sobre Algoritmos em Grafos
+3	Arquitetura de Computadores I	Circuitos Digitais	Livros sobre Arquitetura de Computadores I
+3	Probabilidade e Estatística	Cálculo I	Livros sobre Probabilidade e Estatística
+3	Cálculo II	Cálculo I	Livros sobre Cálculo II
+3	Programação Funcional em Haskell	-	Livros sobre Programação Funcional
+4ª Etapa
+Etapa	Aulas em Vídeo	Pré-requisitos	Leitura Recomendada
+4	Análise de Algoritmos	Algoritmos em Grafos	Livros sobre Análise de Algoritmos
+4	Métodos Numéricos I	Introdução à Ciência da Computação com Python I
+
+Cálculo I	Livros sobre Métodos Numéricos
+4	Banco de Dados	-	Livros sobre Bancos de Dados
+4	Arquitetura de Computadores II	Introdução à Ciência da Computação com Python II
+
+Arquitetura de Computadores I	Livros sobre Arquitetura de Computadores
+4	Programação Lógica	-	Livros sobre Programação Lógica
+5ª Etapa
+Etapa	Aulas em Vídeo	Pré-requisitos	Leitura Recomendada
+5	Redes de Computadores	-	Livros sobre Rede de Computadores
+5	Introdução à Engenharia de Software	Introdução à Ciência da Computação com Python II	Livros sobre Engenharia de Software
+5	Sistemas Operacionais	Arquitetura de Computadores II	Livros sobre Sistemas Operacionais
+5	Programação Matemática	Álgebra Linear I	Livros sobre Programação Matemática/Pesquisa Operacional
+5	Fundamentos de Computação Gráfica	Geometria Analítica	Livros sobre Computação Gráfica
+6ª Etapa
+Etapa	Aulas em Vídeo	Pré-requisitos	Leitura Recomendada
+6	Linguagens Formais e Autômatos	Matemática Discreta	Livros sobre Linguagens Formais e Autômatos
+6	Inteligência Artificial	Estruturas de Dados
+
+Probabilidade e Estatística	Livros sobre Inteligência Artificial
+6	Sistemas Distribuídos	Redes de Computadores	Livros sobre Sistemas Distríbuidos
+6	Teoria dos Grafos	Matemática Discreta	Livros sobre Teoria dos Grafos
+6	Cálculo III	Cálculo II	Livros sobre Cálculo III
+7ª Etapa
+Etapa	Aulas em Vídeo	Pré-requisitos	Leitura Recomendada
+7	Teoria da Computação	Linguagens Formais e Autômatos	Livros sobre Teoria da Computação
+7	Deep Learning	Inteligência Artificial	Livros sobre Deep Learning
+7	Compiladores	Estruturas de Dados
+
+Teoria dos Grafos	Livros sobre Compiladores
+7	Computação Quantica	Cálculo III
+
+Arquitetura de Computadores II	Livros sobre Computação Quântica
+7	Metodologia da Pesquisa	-	Livros sobre Metodologia de Pesquisa
+Especializações
+Após ter concluído a formação geral, você já deve ter uma ampla visão sobre Ciência da Computação, seus fundamentos e aplicações e estará mais que preparado para escolher uma área de especialidade dentro de suas aplicações para se tornar especialista. A partir daqui não vamos mais elencar pré-requisitos, pois entendemos que com a bagagem da formação geral o aluno já consegue ter pleno conhecimento sobre como estudar temas complexos e decidir como e quando fazer cada curso sem necessitar de recomendação.
+
+Especialização	Áreas de Atuação
+Computação Gráfica	softwares gráficos, aplicações 3D, games, fotorrealismo, sistemas gráficos, simuladores, e mais
+Embarcados	internet das coisas, controles industriais, coisas inteligentes, wearables, cidades inteligentes, automobilismo, e mais
+Desenvolvimento Web	aplicações em servidor, layout de páginas web, sistemas on-line, APIs, computação em nuvem, streaming, e mais
+Ciência de Dados	análise de dados, visualização de dados, machine learning, deep learning, sistemas especialistas, estatística, e mais
+CyberSecurity	segurança, pentest, criptografia, autenticação, análise, estatística, e mais
+DevOps	devops, infraestrutura, container, docker, kubernetes, CI/CD, e mais
+Design de Algoritmos	em breve
+Como demonstrar o meu progresso?
+A melhor forma de demonstrar sua evolução e maturidade ao longo do currículo é por meio de exercícios. Estes exercícios podem ser os encontrados nas leituras recomendadas ou, em caso de disciplinas mais aplicadas, projetos práticos. Compartilhar sobre os projetos que tem feito ao longo do Curso, seja por meio de redes sociais, blogues, tutoriais, streaming... vai demonstrar para as pessoas do meio técnico e de outros meios o quanto você aprendeu e evoluiu ao longo dessa jornada.
+
+Não deixe de hospedar todos os seus códigos em seu perfil do GitHub, mesmo que sejam pequenos projetos ou apenas exercícios eles podem demonstrar muito sobre o que você tem estudado, como você resolve problemas e o quanto você melhorou ao longo do tempo.
+
+So, você quer aprender IA? Mas você não sabe como ou por onde começar?
+
+Escrevi os 20 principais MOOCs gratuitos de ciência de dados, ML e IA na Internet em 2020. Mas percebi que fazer muitos cursos não é o caminho.
+
+Para escapar do inferno do tutorial erealmenteaprender, você precisa colocar a mão na massa, escrever algoritmos do zero, implementar artigos e fazer projetos paralelos divertidos usando IA para resolver problemas.
+
+Este artigo tenta elaborar um currículo gratuito que siga essa filosofia. Estou trabalhando em alguns desses cursos, então entre em contato pelo Twitter ou Linkedin se quiserem aprender juntos!
+
+Além disso, deixe um comentário se você acha que está faltando alguma coisa!
+
+Mas primeiro, algumas notas sobre o currículo e alguns conselhos sobre aprendizagem.
+
+Abordagem de cima para baixo
+Este currículo segue uma abordagem de cima para baixo – primeiro o código, a teoria depois .
+
+Gosto de aprender por necessidade . Então, se eu tiver que descobrir algo, um problema para resolver, ou um protótipo para fazer, eu irei em toda parte em busca da informação que preciso, estudarei, darei sentido a ela, e então agirei de acordo com ela.
+
+Por exemplo, pretendo ser um engenheiro de IA que entenda LLMs em um nível fundamental, o que envolve ter a habilidade de codificar transformadores do zero e ajustar LLMs em GPUs, etc. meu conhecimento e pretendo preencher essas lacunas.
+
+Também é focado na PNL; se você estiver procurando por outras especializações em IA, como visão computacional ou aprendizado por reforço, comente abaixo ou envie-me uma mensagem no Twitter ou Linkedin . Vou te passar algumas recomendações.
+
+Antes de despejar um monte de links para você, gostaria que alguém tivesse me contado duas coisas importantes antes de eu começar a aprender qualquer coisa.
+
+Aprenda em público
+Há muito o que aprender e você nunca terminará de aprender, especialmente com IA, quando novos artigos e ideias revolucionários são lançados semanalmente.
+
+O maior erro que você pode cometer é aprender em particular. Você não cria nenhuma oportunidade para si mesmo se fizer isso. Você não tem nada para mostrar além de poder dizer que concluiu algo. O que mais importa é o que você fez com a informação, como você a transformou em conhecimento a ser compartilhado com o público e que ideias e soluções inovadoras surgiram a partir dessa informação.
+
+Então, você deve aprender em público .
+
+Isso significa ter o hábito de criar .
+
+Isso pode significar:
+
+escrevendo blogs e tutoriais
+participe de hackathons e colabore com outras pessoas
+faça e responda perguntas nas comunidades do Discord
+trabalhe em projetos paralelos pelos quais você é apaixonado
+twittando sobre algo interessante que você descobriu
+E falando sobre o Twitter,
+
+Use o Twitter
+Se você seguir as pessoas certas e usá-lo corretamente, o Twitter será a plataforma social de maior valor que alguém pode usar hoje.
+
+Quem seguir ? Veja esta lista de IA de Suhail .
+
+Como usar o Twitter ? Leia Near como usar o Twitter com sucesso .
+
+DM pessoas no Twitter. Seja sincero, seja breve e faça uma pergunta específica. Este guia sobre como escrever um e-mail frio de Sriram Krishnan também pode ser aplicado a DMs.
+
+Como twittar? Leia Anatomia de um Tweet de Jason , criador do Instructor , que cresceu de 0 → 14 mil seguidores em meses.
+
+Se você está lendo isso, siga-me no Twitter !
+
+DM-me sobre o que você está fazendo! Estou sempre pronto para colaborar em projetos legais.
+
+Agora vamos entrar no assunto.
+
+Índice
+Matemática
+Ferramentas
+∘ Python
+∘ PyTorch
+Aprendizado de máquina
+∘ Escreva do zero
+∘ Competir
+∘ Faça projetos paralelos
+∘ Implante-os
+∘ Complementar
+Deep Learning
+∘ Fast.ai
+∘ Faça mais competições
+∘ Implemente artigos
+∘ Visão Computacional
+∘ PNL
+Grandes modelos de linguagem
+∘ Assistir redes neurais: Zero a herói
+∘ Boot camp gratuito de LLM
+∘ Construir com LLMs
+∘ Participe de hackathons
+∘ Leia artigos
+∘ Escreva Transformers do zero.
+∘ Alguns bons blogs
+∘ Assista Umar Jamil
+∘ Aprenda como executar modelos de código aberto.
+∘ Engenharia imediata
+∘ LLMs de ajuste fino
+∘ RAG
+Como se manter atualizado
+Outros currículos/listas que você pode achar úteis
+Matemática
+
+DALL·E
+O aprendizado de máquina depende fortemente de três pilares da matemática: álgebra linear, cálculo, probabilidade e estatística. Cada um desempenha um papel único ao permitir que os algoritmos funcionem de forma eficaz.
+
+Álgebra Linear: o kit de ferramentas matemáticas para representação e manipulação de dados, onde matrizes e vetores formam a linguagem para algoritmos interpretarem e processarem informações
+Cálculo: O mecanismo para otimização em aprendizado de máquina, permitindo que algoritmos aprendam e melhorem ao compreender gradientes e taxas de mudança.
+Probabilidade e Estatística: A base para a tomada de decisões sob incerteza, permitindo que algoritmos prevejam resultados e aprendam com os dados através de modelos de aleatoriedade e variabilidade.
+Esta é uma ótima série sobre matemática para ML da perspectiva de um programador: Matemática para aprendizado de máquina por pesos e preconceitos ( código )
+
+Se você deseja uma abordagem de Álgebra Linear que prioriza o código, faça Álgebra Linear Computacional ( vídeo , código ) pelos criadores de fast.ai.
+
+Leia Introdução à Álgebra Linear para Aprendizado de Máquina Aplicado com Python ao lado do curso.
+
+Se você quiser algo mais tradicional, assista às palestras do Imperial College London — Álgebra Linear e Cálculo Multivariado .
+
+Assista a Essência da Álgebra Linear e Essência do Cálculo de 3Blue1Brown .
+
+Assista Statistics Fundamentals da StatQuest para obter estatísticas
+
+Suplementar
+
+Livro: Matemática para Aprendizado de Máquina
+Artigo: O cálculo matricial que você precisa para aprendizado profundo
+Ferramentas
+
+DALL·E
+Pitão
+Iniciantes começam aqui: Programação prática em Python .
+
+Se você já está confortável com Python, faça este Advanced Python Mastery
+
+Ambos são ótimos cursos de David Beazley, autor de Python Cookbook.
+
+Depois disso, assista a algumas palestras de James Powell
+
+Leia Padrões de Design Python .
+
+Suplementar
+
+Livro: Python Fluente, 2ª Edição ( código )
+Podcasts: Python real e Talk Python
+PyTorch
+Assista aos tutoriais do PyTorch de Aladdin Persson
+
+O site PyTorch é um ótimo lugar para se estar.
+
+Exemplos de PyTorch
+Tutoriais oficiais do PyTorch
+Página de perguntas frequentes
+Teste seus conhecimentos com alguns quebra-cabeças
+
+srush/Tensor-Puzzles: Resolva quebra-cabeças. Melhore seu PyTorch
+Suplementar
+
+Livro: Programando PyTorch para Aprendizado Profundo
+Aprendizado de máquina
+
+DALL·E
+Leia o livro de ML de 100 páginas .
+
+Escreva do zero
+Enquanto você lê, escreva os algoritmos do zero.
+
+Veja os repositórios abaixo
+
+eriklindernoren/ML-From-Scratch
+JeremyNixon/oráculo
+trekhleb/aprendizado de máquina caseiro
+Se você quiser um desafio, escreva PyTorch do zero seguindo este curso.
+
+MiniTorch: um curso DIY sobre engenharia de aprendizado de máquina ( vídeos , código )
+Competir
+Aplique o que você aprende nas competições.
+
+Participe de competições de ML em plataformas como bitgrit e Kaggle ; encontre mais neste artigo .
+Veja soluções vencedoras anteriores e estude-as
+Faça projetos paralelos
+Leia Colocando o aprendizado de máquina em produção por Vicki Boykis
+
+Ela também escreveu sobre o que aprendeu construindo o Viberary , uma busca semântica por livros.
+
+Obtenha um conjunto de dados e construa um modelo (ou seja, use o Earthaccess para obter dados da NASA Earth).
+
+Crie uma UI com streamlit e compartilhe-a no Twitter.
+
+Implante-os
+Coloque os modelos em produção. Acompanhe seus experimentos. Aprenda como monitorar modelos. Experimente dados e desvios de modelo em primeira mão.
+
+Aqui estão alguns recursos excelentes
+
+Feito com ML
+DataTalksClub/mlops-zoomcamp: curso MLOps gratuito
+chiphuyen/design de sistemas de aprendizado de máquina
+Evidentemente AI - design de sistema de ML: 300 estudos de caso
+stas00/ml-engineering: Livro on-line de engenharia de aprendizado de máquina
+Suplementar
+Aprendizado de máquina com PyTorch e Scikit-Learn ( código )
+[1811.12808] Avaliação de modelo, seleção de modelo e seleção de algoritmo em aprendizado de máquina
+Livro de introdução ao aprendizado de máquina · MLIB
+Aprendizado profundo
+
+Se você quiser de cima para baixo, comece com fast.ai.
+
+Rápido.ai
+fast.ai ( parte1 , parte2 ) + Grupo de Estudos W&B
+Gostou do fast.ai? Confira Full Stack Deep Learning .
+
+Se você quiser um curso mais completo e tradicional, confira UNIGE 14x050 — Deep Learning de François Fleuret .
+
+Se você precisar buscar teoria em algum momento, esses são ótimos livros.
+
+Mergulhe no Deep Learning (tem exemplos de código em PyTorch, NumPy/MXNet, JAX e TensorFlow)
+Aprendizado profundo por Ian Goodfellow, Yoshua Bengio e Aaron Courville
+Redes neurais e aprendizagem profunda
+Compreendendo o Deep Learning (com cadernos práticos )
+Leia O Pequeno Livro de Aprendizado Profundo no seu telefone em vez de navegar no Twitter.
+
+Leia-os enquanto suas redes neurais estão convergindo.
+
+Uma receita para treinar redes neurais
+Redes Neurais Profundas: 33 anos atrás e daqui a 33 anos
+Faça mais competições
+PlantTraits2024 — FGVC11 | Kaggle (visão computacional)
+Implementar documentos
+Confira as implementações anotadas do papel PyTorch labml.ai
+
+Papers with Code é um ótimo recurso; aqui está o BERT explicado em seu site.
+
+Abaixo estão alguns recursos para as especializações em Deep Learning
+
+Visão Computacional
+Muitas pessoas recomendam CS231n: Deep Learning for Computer Vision . É desafiador, mas vale a pena se você passar por isso.
+
+Aprendizagem por Reforço
+Para RL, esses dois são ótimos:
+
+Crescendo em Deep RL por OpenAI
+🤗 Curso de Aprendizagem por Reforço Profundo - Abraçando Rosto
+PNL
+Outro ótimo curso de Stanford, CS 224N | Processamento de linguagem natural com aprendizado profundo
+
+Aprenda Abraçando o Rosto: Curso de PNL Abraçando o Rosto
+
+Confira este repositório Super Duper PNL
+
+Bons artigos e análises
+
+Pesquisa BERT - Ep. 1 — Principais conceitos e fontes · Chris McCormick
+O Word2vec ilustrado - Jay Alammar
+O BERT ilustrado, ELMo e co. (Como a PNL quebrou a aprendizagem por transferência
+Compreendendo redes LSTM — blog de colah
+PyTorch RNN do zero - Jake Tae
+Suplementar
+
+Livro Processamento de Linguagem Natural com Transformers
+Grandes modelos de linguagem
+
+Primeiro, assista [ 1h Talk] Introdução aos grandes modelos de linguagem de Andrej.
+
+Então Grandes Modelos de Linguagem em Cinco Fórmulas , por Alexander Rush — Cornell Tech
+
+Assistir Redes Neurais: Zero a Herói
+Ele começa explicando e codificando a retropropagação do zero e termina escrevendo o GPT do zero.
+
+Redes Neurais: Zero To Hero por Andrej Karpathy
+
+Ele acaba de lançar um novo vídeo → Vamos construir o Tokenizer GPT
+
+Você também pode ver o GPT em 60 linhas de NumPy | Jay Mody enquanto você está nisso.
+
+Treinamento LLM gratuito
+Um LLM Bootcamp pago lançado gratuitamente pela Full Stack Deep Learning.
+
+Ele ensina engenharia imediata, LLMOps, UX para LLMs e como lançar um aplicativo LLM em uma hora.
+
+Agora que você está ansioso para construir depois deste treinamento,
+
+Construa com LLMs
+Quer construir aplicativos com LLMs?
+
+Assista ao desenvolvimento de aplicativos usando grandes modelos de linguagem
+, de Andrew Ng
+
+Leia Construindo aplicativos LLM para produção por Huyen Chip
+
+Bem como padrões para construção de sistemas e produtos baseados em LLM, de Eugene Yan
+
+Consulte o OpenAI Cookbook para receitas.
+
+Use os modelos Vercel AI para começar.
+
+Participe de hackathons
+lablab.ai tem novos hackathons de IA todas as semanas. Me avise se você quiser formar uma equipe!
+
+Se você quiser se aprofundar na teoria e entender como tudo funciona:
+
+Leia artigos
+Um ótimo artigo de Sebastian Raschka sobre Understanding Large Language Models , onde ele lista alguns artigos que você deve ler.
+
+Ele também publicou recentemente outro artigo com artigos que você deve ler em janeiro de 2024 , cobrindo modelos mistral.
+
+Siga sua subpilha Ahead of AI .
+
+Escreva Transformers do zero.
+Leia a família Transformer versão 2.0 | Lil'Log para uma visão geral.
+
+Escolha o formato que melhor lhe convier e implemente-o do zero.
+
+Papel
+
+Atenção é tudo que você precisa
+O transformador ilustrado
+O Transformador Anotado de Harvard
+Pensando como o Transformer
+Blogues
+
+Criando um transformador do zero - Parte Um: O Mecanismo de Atenção ( parte 2 ) ( código )
+Compreendendo e codificando o mecanismo de autoatenção de grandes modelos de linguagem desde o início, por Sebastian Raschka, PhD
+Transformadores do zero
+Vídeos
+
+Codificando um Transformer do zero no PyTorch, com explicação completa, treinamento e inferência
+PNL: Implementando BERT e Transformers do zero
+Você pode codificar transformadores do zero agora. Mas ainda há mais.
+
+Assista a estes vídeos Stanford CS25 - Transformers United .
+
+Alguns bons blogs
+Gradient Descent into Madness - Construindo um LLM do zero
+O Transformador Ilustrado - Jay Alammar
+Alguma intuição sobre atenção e o transformador , de Eugene Yan
+Acelerando o cache GPT — KV | Tornando-se o imbatível
+Além da autoatenção: como um modelo de linguagem pequena prevê o próximo token
+Lhama do zero (ou como implementar um papel sem chorar) | Brian Kitano
+Melhorando LoRA: Implementando Adaptação de Baixa Classificação Decomposta por Peso (DoRA) do zero
+Assistir Umar Jamil
+Ele tem vídeos fantásticos e detalhados explicando artigos. Ele também mostra o código.
+
+LoRA: Adaptação de baixo nível de modelos de linguagem grande – explicado visualmente + código PyTorch do zero
+Mistral / Mixtral explicado: atenção à janela deslizante, mistura esparsa de especialistas, buffer rolante
+Atenção é tudo que você precisa (Transformer) — Explicação do modelo (incluindo matemática), Inferência e Treinamento
+LLaMA explicou: KV-Cache, Incorporação Posicional Rotativa, Norma RMS, Atenção de Consulta Agrupada, SwiGLU
+Geração Aumentada de Recuperação (RAG) Explicada: Incorporação, BERT de Frase, Banco de Dados de Vetores (HNSW)
+Mais alguns links relacionados a LLMs que não são exaustivos. Consulte o LLM Syllabus para obter um plano de estudos mais abrangente para LLMs.
+
+Aprenda como executar modelos de código aberto.
+Use ollama: comece a usar Llama 2, Mistral e outros grandes modelos de linguagem localmente
+
+Eles lançaram recentemente bibliotecas Python e JavaScript
+
+Engenharia imediata
+Leia Prompt Engenharia | Lil'Log
+
+Engenharia de prompt ChatGPT para desenvolvedores por Ise Fulford (OpenAI) e Andrew Ng
+
+DeepLearning.ai também oferece outros cursos de curta duração nos quais você pode se inscrever gratuitamente.
+
+Ajustando LLMs
+Leia o guia de ajuste fino do Hugging Face .
+
+Um bom guia: Ajuste fino — The GenAI Guidebook
+
+Confira axolote .
+
+Este é um bom artigo: Ajustar um modelo Mistral-7b com Otimização de Preferência Direta | por Maxime Labonne
+
+pano
+Um ótimo artigo de Anyscale: Construindo aplicativos LLM baseados em RAG para produção
+
+Uma visão geral abrangente de Retrieval Augmented Generation por Aman Chadha
+
+Como se manter atualizado
+Combinação de newsletters + podcasts + Twitter
+
+Para artigos, você pode seguir AK (@_akhaliq)
+
+Para podcasts, o melhor que encontrei é Latent Space de Swyx & Alessio
+
+Junte-se ao Discord deles .
+
+Eles também têm este boletim informativo, Smol Talk , que resume todas as grandes discórdias sobre IA.
+
+Alguns outros boletins informativos que gosto são:
+
+O lote | DeepLearning.AI | Notícias e insights sobre IA
+Aprendizado profundo semanal
+Interconexões | Nathan Lambert
+Informações sobre IA | Sahar Mor
+Mais neste artigo .
+
+https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/pt
