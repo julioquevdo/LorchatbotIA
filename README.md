@@ -47,7 +47,9 @@ O chatbot utiliza um banco de dados com curadoria de links para cursos online gr
 Antes de executar os chatbots, você precisa configurar a sua API Key do Gemini e adicionar os banco de dados no Colab.
 
 1. Acesse o Link do projeto no Colab.
-2.  substitua `SUA_API_KEY` pela sua chave de API. 
+2.  substitua `SUA_API_KEY` pela sua chave de API.
+3.  Baixe os arquivos "base_de_conhecimento" e "base_roteiro" do GitHub.
+4.  Faça o Upload deles para o Colab como mostra o vídeo abaixo.
 
 ### 2. Executando os Chatbots no Google Colab
 
