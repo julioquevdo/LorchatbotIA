@@ -1,4 +1,5 @@
-# 🤖  Desvendando o Universo da IA com Chatbots Interativos! 🤖 (https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif)
+# 🤖  Desvendando o Universo da IA com Chatbots Interativos! 🤖 
+<https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif>
 
 Explore o fascinante mundo da Inteligência Artificial com a ajuda de dois chatbots inovadores: **Lor, o Chatbot Educador**, e o **Chatbot Criador de Roteiros de Estudos**. Ambos os projetos utilizam bancos de dados específicos e o poder do modelo de linguagem Gemini para oferecer uma experiência de aprendizado personalizada e envolvente.
 
