@@ -4,7 +4,7 @@ Explore o fascinante mundo da Inteligência Artificial com a ajuda de dois chatb
 
 ## 👩‍🏫 Lor: Sua Mentora Virtual em IA 
 
-![Lor, o chatbot educador][(https://media.giphy.com/media/T1WqKkLY753cYTj1lA/giphy.gif)](https://giphy.com/clips/AtemeKRsPRVESJ8zRq)
+![Lor, o chatbot educador](https://giphy.com/clips/AtemeKRsPRVESJ8zRq)
 
 Tem dúvidas sobre IA? A Lor está aqui para ajudar! Com um vasto conhecimento em:
 
